@@ -10,3 +10,4 @@ for i in range(numbers):
     if i == numbers:
         score_list.sort()
         print('全班最高:',score_list[len(score_list)-1],'分')
+        print('全班最低:',score_list[0],'分')
